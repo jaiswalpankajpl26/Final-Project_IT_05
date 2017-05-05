@@ -1,0 +1,10 @@
+#slideshow
+{
+position:absolute;
+width:780px;
+height:210px;
+background-image:url('images/walpaper.jpg');
+background-repeat:no-repeat;
+left:170px;
+top:80px;
+}

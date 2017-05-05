@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="2"
+    android:versionName="1.2"
+    package="healthcenter.mnnit.pj.care4u">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Care4u"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".after_plogin"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".display_chart"
+            android:label="@string/title_activity_display_chart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".med_MainActivity" />
+        <activity android:name=".appoint" />
+        <activity android:name=".initial" />
+        <activity android:name=".display_spec" />
+        <activity android:name=".take_reg" />
+        <activity android:name=".show_history" />
+        <activity android:name=".about" />
+        <activity android:name=".developer" />
+        <activity android:name=".feedback"></activity>
+    </application>
+
+</manifest>

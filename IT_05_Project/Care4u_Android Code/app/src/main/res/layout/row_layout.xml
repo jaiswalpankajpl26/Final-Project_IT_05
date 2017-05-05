@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="70dp"
+    android:background="@drawable/background2">
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/txt_id"
+        android:text="ID"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+    <!--android:clickable="true"-->
+
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+
+
+        android:id="@+id/txt_name"
+        android:text="NAME"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_id"
+        android:layout_toEndOf="@+id/txt_id" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+
+        android:id="@+id/txt_special"
+        android:text="Specialization     "
+
+
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_name"
+        android:layout_toEndOf="@+id/txt_name" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+
+        android:id="@+id/txt_time"
+        android:text="TIME"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_toRightOf="@+id/txt_special"
+        android:layout_toEndOf="@+id/txt_special" />
+
+
+</RelativeLayout>

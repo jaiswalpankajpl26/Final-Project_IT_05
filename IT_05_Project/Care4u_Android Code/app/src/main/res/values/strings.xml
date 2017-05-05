@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DatePicker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="date_label_set">Welcome  Mr.</string>
+    <string name="date_button_set"></string>
+    <string name="date_view_set">The Day on selected Date is: </string>
+    <string name="date_selected"></string>
+    <string name="name_text"></string>
+    <string name="title_activity_display_chart">display_chart</string>
+    <string name="title_activity_appoint">appoint</string>
+</resources>

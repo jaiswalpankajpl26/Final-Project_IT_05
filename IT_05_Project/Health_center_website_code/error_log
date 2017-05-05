@@ -1,0 +1,1 @@
+[09-Feb-2015 03:06:30 UTC] PHP Fatal error:  Call to undefined function session_register() in /home/hembram/public_html/hospital/upload/login1.php on line 12

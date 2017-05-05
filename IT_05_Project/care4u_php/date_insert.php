@@ -1,0 +1,48 @@
+<?php  
+
+
+$db_name="dispensary_new";
+$mysqli_user="root";
+//$mysqli_pass="techo";
+$mysqli_pass="";
+$server_name="localhost";
+//$server_name="172.31.80.231";
+
+$con=mysqli_connect($server_name,$mysqli_user,$mysqli_pass,$db_name);
+//session_start();
+$response = array();
+session_start();
+ $id = $_POST["id"];  
+ $from =  $_POST["from"]; 
+
+$from = date("Y-m-d", strtotime($from));
+$to=$_POST["to"];
+$to= date("Y-m-d", strtotime($to));
+$msg=$_POST["msg"];
+
+
+  //$user_pass=md5($user_pass);
+$sql_query = "insert into `leave`(`officer_id`,`from`,`to`,`reason`) values('$id','$from','$to','$msg');";
+ $result = mysqli_query($con,$sql_query);  
+ 
+ if($result >0 )  
+ {  
+  $response["name"] = "True";
+  $response["success"] = 1;
+        
+        echo json_encode($response);
+ 
+ }  
+
+else  
+ {   
+ 
+ $response["success"] = 0;
+  $response["name"] = "Something wrong";
+        
+ 
+echo json_encode($response);
+  }  
+mysqli_close($con);
+ ?>  
+ 

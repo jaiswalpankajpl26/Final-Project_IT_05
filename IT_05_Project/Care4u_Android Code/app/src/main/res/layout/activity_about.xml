@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="healthcenter.mnnit.pj.care4u.about">
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="353dp"
+        android:layout_height="308dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="An android app for MNNIT Allahabad health center to appoint doctor, check the availability of doctor and medicine in stock. User can login using registration number to the portal for the appointing doctor and check medicine availability."
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-2dp"
+        android:layout_above="@+id/editText4"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="360dp"
+        android:layout_height="69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="65dp"
+        android:clickable="true"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="www.hc.mnnit.ac.in"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="For web link "
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="323dp" />
+</RelativeLayout>

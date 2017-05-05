@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="healthcenter.mnnit.pj.care4u.feedback">
+
+    <TextView
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Your feedback"
+        android:paddingTop="5dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="395dp"
+        android:layout_height="224dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+
+    <Button
+        android:id="@+id/submit_ok"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:layout_x="78dp"
+        android:layout_y="228dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="showchart"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

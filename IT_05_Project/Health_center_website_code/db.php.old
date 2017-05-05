@@ -1,0 +1,4 @@
+<?php
+$conn=mysql_connect("localhost","root","clockaccam$54123!") or die("unable to connect");
+$db=mysql_select_db('hospital',$conn);
+?>

@@ -1,0 +1,47 @@
+<?php  
+
+$t_id = $_POST["id"];  
+ $date =  $_POST["sel_date"]; 
+ /*
+$db_name="dispensary_new";
+$mysqli_user="root";
+//$mysqli_pass="techo";
+$mysqli_pass="";
+$server_name="localhost";
+//$server_name="172.31.80.231";
+
+$con=mysqli_connect($server_name,$mysqli_user,$mysqli_pass,$db_name);
+
+
+ 
+//$t_id = $_GET["id"];
+// $t_id="TIM28";
+//$date =  $_GET["sel_date"]; 
+ //$date="2016/7/	21";
+ //echo $t_id;
+$response = array();
+ 
+
+ $date = date("Y-m-d", strtotime($date));
+/*$dr_id= $row["dr_id"];
+
+ $query="select officer_id from `leave` where `officer_id` like '$t_id' && '$date'>= `from` AND '$date'<=`to`;";
+ 
+ $res = mysqli_query($con,$query);  
+
+ $rows = mysqli_fetch_assoc($res);
+ if(mysqli_num_rows($res))  
+ {
+   echo "true";
+}
+ else
+{ 
+ echo "false";   
+ }
+    
+//else{echo $date;}
+
+mysqli_close($con);
+*/ 
+ echo "false" ;
+ ?>  
